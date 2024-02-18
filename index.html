@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="bg-gray-200">
+   <div class="w-full">
+    <div class="bg-gray-300  ">
+        <nav class="grid sm:grid-cols-3 sm:mr-15">
+           
+            <div class="sm:col-span-1 flex items-center justify-between"> 
+                <h1 class="p-5 text-2xl">
+                    <a href="/">Raghouz Kennel</a>
+                </h1>
+                <div class="w-5 h-5 sm:hidden mr-7 " id="burger">
+                    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                    </div> 
+                
+            </div>
+          
+            
+            <ul class="sm:col-span-1 ml-8 sm:flex items-center sm:justify-center gap-5 hidden " id="menu">
+                <li class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="hidden h-5 w-5 sm:inline-flex " fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                      </svg>
+                    <a href="/" class="border-red-600  sm:border-b-2">
+                        <span >Home</span>
+                    </a>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" class=" h-5 w-5 hidden sm:inline-flex" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+                      </svg>
+                      
+                      
+                    <a href="/">
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" class=" w-5 h-5 hidden sm:inline-flex" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                      </svg>
+                      
+                    <a href="/">
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+           
+            <div class="sm:col-span-1 flex justify-center sm:justify-end pr-4 items-center space-x-3">
+                <a href="/" class="btn">login</a>
+                <a href="/" class="btn">sign up</a>
+            </div>
+        </nav>
+    </div>
+    <main class="m-6 p-6">
+       
+        <header>
+            <h2 class="text-2xl font-bold">Puppies</h2>
+        </header>
+        <div>
+            <h4 class="text-xl font-semibold pt-4 pb-4">latest puppies</h4>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div  class="card">
+                    <img src="../img/stew.jpg" class="w-full object-cover h-32 sm:h-48" alt="stew">
+                    <div class="p-4">
+                        <span class="font-bold">german</span>
+                        <span class="block text-gray-400 text-md ">shepard</span>
+                    </div>
+                    <div class="badge">
+                        <span >25 mins</span>
+                    </div>
+                </div>
+                <div  class="card">
+                    <img src="../img/noodles.jpg" class="w-full object-cover h-32 sm:h-48" alt="stew">
+                    <div class="p-4">
+                        <span class="font-bold">Veg Noodles</span>
+                        <span class="block text-gray-400 text-md ">Spicy chicken recipe</span>
+                    </div>
+                    <div class="badge">
+                        <span >25 mins</span>
+                    </div>
+                </div>
+                <div  class="card">
+                    <img src="../img/curry.jpg" class="w-full object-cover h-32 sm:h-48" alt="stew">
+                    <div class="p-4">
+                        <span class="font-bold">Panner Fry</span>
+                        <span class="block text-gray-400 text-md ">Spicy chicken recipe</span>
+                    </div>
+                    <div class="badge">
+                        <span >25 mins</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+            <h4 class="mt-4 font-bold text-lg">Most Popular</h4>
+            <div>
+                <!--cards go here
+                -->
+            </div>
+            <div class="flex justify-center">
+                <div class="btn">load more</div>
+            </div>
+        </div>
+    </main>
+   </div> 
+   <script src="index.js"></script>
+</body>
+</html>
